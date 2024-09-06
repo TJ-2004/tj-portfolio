@@ -1,9 +1,9 @@
 export const BaseInfo = {
-    name: "Sajal",
+    name: "Tanishq Jaiswal",
     position: "Full Stack Web Developer",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit porro numquam ad, vero consequuntur aperiam cumque voluptatum pariatur veniam? Qui facilis est ipsam odio cum!",
-    profilePic: "/images/hero.png",
+    profilePic: "/images/image.png",
   };
   
   export const aboutInfo = {

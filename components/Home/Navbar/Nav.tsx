@@ -40,7 +40,7 @@ const Nav = ({ openNav }: Props) => {
           alt="Logo"
           width={50}
           height={50}
-          className="ml-[-1.5rem] sm:ml-0 rounded-full"
+          className="ml-8 sm:ml-0 rounded-full"
         />
         <div className="flex items-center space-x-10">
           {/* NavLinks */}

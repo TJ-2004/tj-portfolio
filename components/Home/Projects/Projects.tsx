@@ -1,7 +1,7 @@
 import SectionHeading from '@/components/Helper/SectionHeading';
 import { projectData } from '@/Data/data';
 import React from 'react';
-import ProjectCard from './ProjectCard';
+// import ProjectCard from './ProjectCard';
 import Link from 'next/link';
 import Image from 'next/image';
 
@@ -10,7 +10,7 @@ const Projects = () => {
     <div className="pt-16 pb-16 bg-[#050709]">
       {/* Section Heading */}
       <SectionHeading>Projects</SectionHeading>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 items-center mt-20 mx-auto w-4/5">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 items-center mt-20 mx-auto w-4/5" id="projects">
         {projectData.map((project) => {
           return (
             <div

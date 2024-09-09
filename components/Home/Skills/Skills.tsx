@@ -9,9 +9,14 @@ const Skills = () => {
       {/* Section Heading */}
       <SectionHeading>Skills</SectionHeading>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 w-4/5 mx-auto items-center mt-20">
-        {skillsData.map((skill) => {
+        {skillsData.map((skill, i) => {
           return (
-            <div key={skill.id}>
+            <div
+              key={skill.id}
+              data-aos="flip-left"
+              data-aos-delay={`${i * 150}`}
+              data-aos-anchor-placement="top-center"
+            >
               <SkillCard skill={skill} />
             </div>
           );

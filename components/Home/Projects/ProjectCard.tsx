@@ -1,4 +1,5 @@
 import React from 'react';
+// import { ThreeDCardDemo } from './ThreeDCardDemo';
 type Props = {
   project: {
     id: number;
@@ -6,8 +7,10 @@ type Props = {
     url: string;
   };
 };
-const ProjectCard = ({project}:Props) => {
-  return <div>ProjectCard</div>;
+const ProjectCard = ({}:Props) => {
+  return <div>
+    {/* <ThreeDCardDemo /> */}
+  </div>;
 };
 
 export default ProjectCard;

@@ -6,7 +6,7 @@ import Services from './Services/Services';
 import Projects from './Projects/Projects';
 import Skills from './Skills/Skills';
 import Review from './Reviews/Review';
-import Contact from './Contact/Contact';
+// import Contact from './Contact/Contact';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -28,11 +28,11 @@ const Home = () => {
     <div className="overflow-hidden">
       <Hero />
       <About />
-      <Services />
       <Projects />
+      <Services />
       <Skills />
       <Review />
-      <Contact />
+      {/* <Contact /> */}
     </div>
   );
 };

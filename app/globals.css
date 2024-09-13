@@ -26,4 +26,8 @@
     background: #c277fa;
     border-radius: 4px;
   }
+  .element {
+    overflow: -moz-scrollbars-none; /* Hides the scrollbar */
+    scrollbar-width: none; /* Hides the scrollbar */
+}
 }

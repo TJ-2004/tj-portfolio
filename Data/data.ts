@@ -2,18 +2,18 @@ export const BaseInfo = {
     name: "Tanishq Jaiswal",
     position: "Full Stack Web Developer",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit porro numquam ad, vero consequuntur aperiam cumque voluptatum pariatur veniam? Qui facilis est ipsam odio cum!",
+      "Currently pursuing B.Tech in Computer Science and Engineering from SRMIST, Chennai. I am a passionate developer and a tech enthusiast.",
     profilePic: "/images/image.png",
   };
   
   export const aboutInfo = {
     title: "Crafting Web Application with Passion and Precision",
     description:
-      "At webdev warriors, we’re a dedicated team of designers and developers committed to delivering tailored web solutions. With a blend of creativity and technical expertise, we help businesses elevate their online presence and achieve their goals",
+      "Full-stack developer with extensive experience in emerging technologies, proficient and driven. I possess diverse technical skills, including proficiency in programming languages such as C++,TypeScript,Solidity and more. With practical knowledge in blockchain and web3, I am capable of tackling complex projects in the tech industry with ease. Along with my technical expertise, I possess strong soft skills such as communication, critical thinking, and problem-solving. I am a team player and enjoy collaborating with others to achieve common goals. Furthermore, I have demonstrated natural leadership skills through various group projects.",
     client: "50+",
-    experience: "3+",
-    project: "200+",
-    website: "100+",
+    experience: "2+",
+    project: "30+",
+    website: "20+",
   };
   
   export const servicesData = [
@@ -74,44 +74,52 @@ export const BaseInfo = {
   export const projectData = [
     {
       id: 1,
-      image: "/images/p1.png",
+      image: "/images/brainwave.png",
       url: "https://agency-opal-eight.vercel.app/",
+      name: "Brainwave",
     },
     {
       id: 2,
-      image: "/images/p2.png",
+      image: "/images/dashify.png",
       url: "https://burger-pearl.vercel.app/",
+      name: "Dashify",
     },
     {
       id: 3,
-      image: "/images/p3.png",
+      image: "/images/shareme.png",
       url: "https://game-ecommerce-yt.vercel.app/",
+      name: "ShareMe",
     },
     {
       id: 4,
-      image: "/images/p4.png",
+      image: "/images/blog.png",
       url: "https://elearning-yt.vercel.app/",
+      name: "Blog",
     },
     {
       id: 5,
-      image: "/images/p5.png",
+      image: "/images/simon.png",
       url: "https://invest-peach.vercel.app/",
+      name: "Simon Game",
     },
     {
       id: 6,
       image: "/images/p6.png",
       url: "https://job-chi-ruby.vercel.app/",
+      name: "Markdown Preview",
     },
-    {
-      id: 7,
-      image: "/images/p7.png",
-      url: "https://wdw-ecom.vercel.app/",
-    },
-    {
-      id: 8,
-      image: "/images/p8.png",
-      url: "https://webhost-ten.vercel.app/",
-    },
+    // {
+    //   id: 7,
+    //   image: "/images/p7.png",
+    //   url: "https://wdw-ecom.vercel.app/",
+    //   name: "",
+    // },
+    // {
+    //   id: 8,
+    //   image: "/images/simon.png",
+    //   url: "https://webhost-ten.vercel.app/",
+    //   name: "",
+    // },
   ];
   
   export const skillsData = [

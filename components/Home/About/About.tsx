@@ -6,7 +6,7 @@ import { FaCheck } from 'react-icons/fa';
 
 const About = () => {
   return (
-    <div className="pt-16 pb-16 bg-[#050709]" id="about">
+    <div className="pt-16 pb-16 bg-[#0f0715]" id="about">
       {/* Section Heading */}
       <SectionHeading>About Me</SectionHeading>
       <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-8 mt-20 mx-auto w-4/5 ">
@@ -15,8 +15,29 @@ const About = () => {
           <h1 className="text-bg text-[26px] sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-200">
             {aboutInfo.title}
           </h1>
-          <p className="mt-6 text-base text-gray-500">
-            {aboutInfo.description}
+          <p className="mt-6 text-base text-gray-500 space-y-2">
+            <span>
+              Full-stack developer with extensive experience in emerging
+              technologies, proficient and driven. I possess diverse technical
+              skills, including proficiency in programming languages such as{' '}
+              <b className="text-white font-semibold">
+                C++,TypeScript,Solidity
+              </b>{' '}
+              and more. With practical knowledge in blockchain and web3, I am
+              capable of tackling complex projects in the tech industry with
+              ease. My Favorite tech Stack is{' '}
+              <b className="text-white font-semibold">MERN</b>
+            </span>
+            <span className="block">
+              Along with my technical expertise, I possess strong soft skills
+              such as{' '}
+              <b className="text-white font-semibold">
+                communication, critical thinking, and problem-solving.
+              </b>{' '}
+              I am a team player and enjoy collaborating with others to achieve
+              common goals. Furthermore, I have demonstrated natural leadership
+              skills through various group projects.
+            </span>
           </p>
           <div className="mt-8">
             <div className="flex items-center space-x-2 mb-6">
@@ -40,7 +61,7 @@ const About = () => {
                 <FaCheck className="text-white" />
               </div>
               <p className="text-gray-300 font-bold text-sm sm:text-base md:text-lg">
-                Full Stack Development
+                Web 3 / Blockchain Developer
               </p>
             </div>
           </div>

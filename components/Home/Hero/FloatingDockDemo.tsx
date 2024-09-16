@@ -1,72 +1,50 @@
-import React from "react";
-import { FloatingDock } from "./floating-dock";
+import React from 'react';
+import { FloatingDock } from './floating-dock';
 import {
   IconBrandGithub,
   IconBrandX,
-  IconExchange,
-  IconHome,
-  IconNewSection,
   IconTerminal2,
-} from "@tabler/icons-react";
-import Image from "next/image";
+  IconBrandLinkedin,
+  IconBrandInstagram,
+} from '@tabler/icons-react';
 
 export function FloatingDockDemo() {
   const links = [
     {
-      title: "Home",
+      title: 'Linked In',
       icon: (
-        <IconHome className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+        <IconBrandLinkedin className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "#",
-    },
-
-    {
-      title: "Products",
-      icon: (
-        <IconTerminal2 className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-      ),
-      href: "#",
+      href: 'https://www.linkedin.com/in/tanishq-j-913152288/',
     },
     {
-      title: "Components",
-      icon: (
-        <IconNewSection className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-      ),
-      href: "#",
-    },
-    {
-      title: "Aceternity UI",
-      icon: (
-        <Image
-          src=""
-          width={20}
-          height={20}
-          alt="Aceternity Logo"
-        />
-      ),
-      href: "#",
-    },
-    {
-      title: "Changelog",
-      icon: (
-        <IconExchange className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-      ),
-      href: "#",
-    },
-
-    {
-      title: "Twitter",
-      icon: (
-        <IconBrandX className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-      ),
-      href: "#",
-    },
-    {
-      title: "GitHub",
+      title: 'GitHub',
       icon: (
         <IconBrandGithub className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "#",
+      href: 'https://github.com/TJ-2004',
+    },
+    {
+      title: 'Twitter',
+      icon: (
+        <IconBrandX className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+      ),
+      href: 'https://twitter.com/tanishqjais9756',
+    },
+    {
+      title: 'Instagram',
+      icon: (
+        <IconBrandInstagram className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+      ),
+      href: 'https://www.instagram.com/tanishq6638/',
+    },
+
+    {
+      title: 'Products',
+      icon: (
+        <IconTerminal2 className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+      ),
+      href: '#',
     },
   ];
   return (

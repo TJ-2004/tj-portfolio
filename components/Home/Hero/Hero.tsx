@@ -5,6 +5,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 import { FaSquareArrowUpRight } from 'react-icons/fa6';
+import { FloatingDockDemo } from './FloatingDockDemo';
 // import { FloatingDockDemo } from './FloatingDockDemo';
 
 const Hero = () => {
@@ -41,14 +42,14 @@ const Hero = () => {
               {BaseInfo.description}
             </p>
             {/* Button */}
-            <div className="flex ">
+            <div className="flex gap-2  ">
               <div className="w-fit">
                 <Link
                   href="https://drive.google.com/file/d/1piL2-UmmNAMLkSd8QaD2Xx2FPrFWla9T/view?usp=drive_link"
                   target="_blank"
                 >
                   <button
-                    data-aos="zoom-in"
+                    data-aos="fade-right"
                     data-aos-delay="300"
                     className="text-white font-semibold md:px-8 md:py-2.5 px-6 py-1.5 text-sm md:text-lg transition-all duration-200 rounded-lg bg-blue-700 mt-8 hover:bg-blue-900 flex items-center space-x-2"
                   >
@@ -58,7 +59,9 @@ const Hero = () => {
                 </Link>
               </div>
 
-              <div>{/* <FloatingDockDemo /> */}</div>
+              <div data-aos="fade-left" data-aos-delay="300">
+                <FloatingDockDemo  />
+              </div>
             </div>
           </div>
           {/* Images */}

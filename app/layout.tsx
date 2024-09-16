@@ -5,6 +5,7 @@ import ResponsiveNav from '@/components/Home/Navbar/ResponsiveNav';
 import Footer from '@/components/Home/Footer/Footer';
 import ScrollToTop from '@/components/Helper/ScrollToTop';
 import Update from '@/components/Helper/Update';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 import { Analytics } from '@vercel/analytics/react';
 
 const font = Sora({
@@ -29,6 +30,7 @@ export default function RootLayout({
           <ResponsiveNav />
           {children}
           <Analytics />
+          <SpeedInsights />
           <Footer />
           <ScrollToTop />
         </Update>

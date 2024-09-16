@@ -3,9 +3,9 @@ import { FloatingDock } from './floating-dock';
 import {
   IconBrandGithub,
   IconBrandX,
-  IconTerminal2,
   IconBrandLinkedin,
   IconBrandInstagram,
+  IconBrandBlogger,
 } from '@tabler/icons-react';
 
 export function FloatingDockDemo() {
@@ -40,11 +40,11 @@ export function FloatingDockDemo() {
     },
 
     {
-      title: 'Products',
+      title: 'Blog',
       icon: (
-        <IconTerminal2 className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+        <IconBrandBlogger className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: '#',
+      href: 'https://my-blog-wm7g.onrender.com/',
     },
   ];
   return (

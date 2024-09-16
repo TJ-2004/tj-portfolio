@@ -60,7 +60,7 @@ const Hero = () => {
               </div>
 
               <div data-aos="fade-left" data-aos-delay="300">
-                <FloatingDockDemo  />
+                <FloatingDockDemo />
               </div>
             </div>
           </div>

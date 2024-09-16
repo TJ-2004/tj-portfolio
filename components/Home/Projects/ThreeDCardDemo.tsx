@@ -18,7 +18,7 @@ type Props = {
 export function ThreeDCardDemo({ project }: Props) {
   return (
     <CardContainer className="inter-var">
-      <CardBody className=" relative group/card  hover:shadow-2xl hover:shadow-emerald-500/[0.1] bg-black border-white/[0.2]  w-auto sm:w-[20rem] h-[32rem] rounded-xl p-6 border flex flex-col justify-between  ">
+      <CardBody className=" relative group/card  hover:shadow-2xl hover:shadow-emerald-500/[0.1] bg-black border-white/[0.2]  w-auto sm:w-[21rem] h-[33rem] rounded-xl p-6 border flex flex-col justify-between  ">
         <CardItem translateZ="50" className="text-xl font-bold text-white">
           {project.name}
         </CardItem>

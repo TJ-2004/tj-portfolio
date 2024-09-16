@@ -11,12 +11,14 @@ type Props = {
     image: string;
     url: string;
     name: string;
+    github: string;
+    description:string;
   };
 };
 export function ThreeDCardDemo({ project }: Props) {
   return (
     <CardContainer className="inter-var">
-      <CardBody className=" relative group/card  hover:shadow-2xl hover:shadow-emerald-500/[0.1] bg-black border-white/[0.2]  w-auto sm:w-[20rem] h-[27rem] rounded-xl p-6 border  ">
+      <CardBody className=" relative group/card  hover:shadow-2xl hover:shadow-emerald-500/[0.1] bg-black border-white/[0.2]  w-auto sm:w-[20rem] h-[32rem] rounded-xl p-6 border flex flex-col justify-between  ">
         <CardItem translateZ="50" className="text-xl font-bold text-white">
           {project.name}
         </CardItem>
@@ -25,19 +27,18 @@ export function ThreeDCardDemo({ project }: Props) {
           translateZ="60"
           className="text-neutral-500 text-sm max-w-sm mt-2 "
         >
-          Hover over this card to unleash the power of CSS perspective
+          {project.description}
         </CardItem>
         <CardItem translateZ="100" className="w-full mt-4">
           <Image
             src={project.image}
             height="1000"
             width="1000"
-            className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
+            className="h-60 w-full object-contain rounded-xl group-hover/card:shadow-2xl"
             alt="thumbnail"
           />
         </CardItem>
         <div className="flex justify-between items-center mt-5">
-
           <CardItem
             translateZ={20}
             as={Link}
@@ -48,11 +49,17 @@ export function ThreeDCardDemo({ project }: Props) {
             Live
           </CardItem>
           <CardItem
-            translateZ={20}
-            as="button"
+            as={Link}
+            href={project.github}
+            target="__blank"
             className="px-4 py-2 rounded-xl bg-white   text-white text-xs font-bold"
           >
-            <Image src="/images/github.svg" alt='github' height={20} width={20}  />
+            <Image
+              src="/images/github.svg"
+              alt="github"
+              height={20}
+              width={20}
+            />
           </CardItem>
         </div>
       </CardBody>

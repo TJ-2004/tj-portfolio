@@ -41,7 +41,7 @@ const Hero = () => {
               {BaseInfo.description}
             </p>
             {/* Button */}
-            <div className='flex '>
+            <div className="flex ">
               <div className="w-fit">
                 <Link
                   href="https://drive.google.com/file/d/1piL2-UmmNAMLkSd8QaD2Xx2FPrFWla9T/view?usp=drive_link"
@@ -58,23 +58,21 @@ const Hero = () => {
                 </Link>
               </div>
 
-               <div>
-                {/* <FloatingDockDemo /> */}
-              </div> 
+              <div>{/* <FloatingDockDemo /> */}</div>
             </div>
           </div>
           {/* Images */}
           <div
             data-aos="zoom-in"
             data-aos-delay="400"
-            className="mx-auto hidden lg:block rounded-[3rem] border-[3.5px] border-blue-950 overflow-x-hidden"
+            className="mx-auto hidden lg:block rounded-[3rem] w-fit   border-[3.5px] border-blue-950 overflow-x-hidden"
           >
             <Image
               src={BaseInfo.profilePic}
               alt={BaseInfo.name}
-              width={10000}
-              height={10000}
-              className="w-auto h-auto"
+              width={350}
+              height={350}
+              className="object-cover"
             />
           </div>
         </div>

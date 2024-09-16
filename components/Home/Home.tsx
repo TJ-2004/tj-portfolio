@@ -4,9 +4,8 @@ import Hero from './Hero/Hero';
 import About from './About/About';
 import Services from './Services/Services';
 import Projects from './Projects/Projects';
-import Skills from './Skills/Skills';
+// import Skills from './Skills/Skills';
 import Review from './Reviews/Review';
-// import Contact from './Contact/Contact';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -30,9 +29,8 @@ const Home = () => {
       <About />
       <Projects />
       <Services />
-      <Skills />
+      {/* <Skills /> */}
       <Review />
-      {/* <Contact /> */}
     </div>
   );
 };

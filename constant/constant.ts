@@ -19,9 +19,4 @@ export const navLinks = [
     url: '#services',
     label: 'Services',
   },
-  {
-    id: 5,
-    url: '#reviews',
-    label: 'Reviews',
-  },
 ];

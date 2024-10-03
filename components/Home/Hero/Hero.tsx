@@ -45,7 +45,7 @@ const Hero = () => {
             <div className="flex gap-2  ">
               <div className="w-fit">
                 <Link
-                  href="https://drive.google.com/file/d/1piL2-UmmNAMLkSd8QaD2Xx2FPrFWla9T/view?usp=drive_link"
+                  href="https://drive.google.com/file/d/1MROm98sqSfRvCoY8w6yIwKlZexCkZueE/view"
                   target="_blank"
                 >
                   <button

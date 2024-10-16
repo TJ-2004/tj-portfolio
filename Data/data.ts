@@ -83,12 +83,12 @@ export const projectData = [
   },
   {
     id: 2,
-    image: '/images/dashify.png',
-    url: 'https://dashifyit.vercel.app/',
-    name: 'Dashify',
-    github: 'https://github.com/TJ-2004/dashify',
+    image: '/images/artomate2.png',
+    url: 'https://artomate.vercel.app/',
+    name: 'Artomate',
+    github: 'https://github.com/TJ-2004/artomate',
     description:
-      'A React-based dashboard utilizing Tailwind CSS and Syncfusion Components for a sleek, responsive interface that delivers rich data visualization and seamless interaction.',
+      'Discover the power of AI with our all-in-one tool. Generate stunning images, chat with an intelligent assistant, and create code seamlessly. Ideal for creators, developers, and explorers, our platform blends creativity and productivity effortlessly.',
   },
   {
     id: 3,
@@ -119,13 +119,22 @@ export const projectData = [
   },
   {
     id: 6,
-    image: '/images/gdsc.png',
-    url: 'https://quickmark-preview.vercel.app/',
-    name: 'Markdown Preview',
-    github: 'https://github.com/TJ-2004/gdsc_task',
+    image: '/images/dashify.png',
+    url: 'https://dashifyit.vercel.app/',
+    name: 'Dashify',
+    github: 'https://github.com/TJ-2004/dashify',
     description:
-      'MarkDown Previewer is a user-friendly web application that allows users to write and preview Markdown content in real-time, seamlessly converting it to HTML with a clean interface and instant visual feedback.',
+      'A React-based dashboard utilizing Tailwind CSS and Syncfusion Components for a sleek, responsive interface that delivers rich data visualization and seamless interaction.',
   },
+  // {
+  //   id: 6,
+  //   image: '/images/gdsc.png',
+  //   url: 'https://quickmark-preview.vercel.app/',
+  //   name: 'Markdown Preview',
+  //   github: 'https://github.com/TJ-2004/gdsc_task',
+  //   description:
+  //     'MarkDown Previewer is a user-friendly web application that allows users to write and preview Markdown content in real-time, seamlessly converting it to HTML with a clean interface and instant visual feedback.',
+  // },
   // {
   //   id: 7,
   //   image: "/images/p7.png",
